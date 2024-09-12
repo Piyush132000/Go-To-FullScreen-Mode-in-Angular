@@ -1,0 +1,27 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(rgb(239, 62, 62), rgb(229, 229, 32), green); ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fullscreen-container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+    background-color: white;
+
+    .fullscreen-icon-container{
+       margin-left: auto;
+
+    }
+
+    .text-container{
+        justify-self: center;
+        text-align: center;
+        align-self: center;
+    }
+}
